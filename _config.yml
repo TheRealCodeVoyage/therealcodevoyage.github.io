@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: My website
+title: Code Voyage with Iman
 
 # Your name to show in the footer
-author: Some Person
+author: Iman Anooshehpour
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -24,7 +24,7 @@ navbar-links:
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Author's home: "https://anoosheh.info"
 
 ################
 # --- Logo --- #
@@ -52,12 +52,12 @@ round-avatar: true
 social-network-links:
   email: "someone@example.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
+#  facebook: deanattali
+  github: TheRealCodeVoyage
+  twitter: nulljuju_dev
+#  patreon: DeanAttali
+  youtube: "@TheRealCodeVoyage"
+#  whatsapp: 15551212
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -100,7 +100,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "CodeVoyage.dev"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -258,7 +258,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/

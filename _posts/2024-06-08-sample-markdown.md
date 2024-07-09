@@ -3,7 +3,7 @@ layout: post
 title: Code Voyage Blog Must Read!
 subtitle: Mindful Community of Tech Adventurer!
 gh-repo: therealcodevoyage/therealcodevoyage.github.io
-gh-badge: [star, fork, follow]
+gh-badge: [follow]
 tags: [welcome post]
 comments: true
 mathjax: true

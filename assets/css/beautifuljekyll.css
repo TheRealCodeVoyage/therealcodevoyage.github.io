@@ -158,6 +158,8 @@ img {
   {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
     background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
   {% endif %}
   -webkit-transition: padding .5s ease-in-out;
   -moz-transition: padding .5s ease-in-out;
@@ -219,11 +221,20 @@ img {
 .navbar-custom .navbar-nav .nav-link {
   font-weight: 800;
   color: var(--navbar-text-col);
+  {% if site.navbar-img %}
+    color: white;
+    text-shadow: 2px 2px 3px black;
+  {% endif %}
 }
 
 .navbar-toggler {
   font-size: 1rem;
   margin: 0.5rem 0;
+  border-color: #FFF !important;
+}
+
+.navbar span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(256,256,256,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 .navbar-custom .navbar-toggler:focus,
 .navbar-custom .navbar-toggler:hover {
@@ -343,6 +354,11 @@ img {
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:hover,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:focus {
   color: var(--hover-col);
+  {% if site.navbar-img %}
+  color: white;
+  text-shadow: 2px 2px 3px black;
+  border-bottom: 2px solid white;
+{% endif %}
 }
 
 .navbar-custom .avatar-container {

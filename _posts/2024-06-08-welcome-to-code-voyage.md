@@ -4,7 +4,7 @@ title: Code Voyage Blog Must Read!
 subtitle: Mindful Community of Tech Adventurer!
 gh-repo: therealcodevoyage/therealcodevoyage.github.io
 gh-badge: [follow]
-tags: [welcome post]
+tags: [welcome, post]
 comments: true
 mathjax: true
 author: Iman Anooshehpour

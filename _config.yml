@@ -22,6 +22,7 @@ author: Iman Anooshehpour
 navbar-links:
   About Me: "aboutme"
   Resources:
+    - YouTube Channel: "https://www.youtube.com/@TheRealCodeVoyage?sub_confirmation=1"
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
   Author's home: "https://anoosheh.info"
